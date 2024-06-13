@@ -1,0 +1,119 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(107, 60, 3);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: rgb(232, 215, 172);
+
+}
+
+header a{
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(107, 60, 3);  
+}
+
+header a:hover {
+    color:aliceblue;
+}
+
+nav ul li{
+display: inline-block;
+padding: 1rem;
+}
+
+main{
+    margin: 2rem 1rem 1rem 1rem;
+}
+
+main h1{
+    margin: 1rem 0;
+}
+
+p{
+    margin: 0 0 1rem 0;
+}
+
+#contact-foto{
+    max-height: 50%;
+    max-width: 50%;
+
+}
+
+#section2 {
+    padding: 1rem;
+}
+
+input, textarea{
+    margin: .3rem 0 1rem; 
+    border-radius: 5px;
+ }
+ 
+ input {
+     height: 1.5rem;
+     width: 15rem;
+ }
+ 
+ textarea{
+     height: 5rem;
+     width: 15rem;
+ }
+ 
+ #button{
+     background-color: blanchedalmond;
+     color:rgb(107, 60, 3);
+     border: none;
+     border-radius: 5px;
+     width: 240px;
+     
+ }
+
+ #section3 {
+
+    padding: 2rem 0 0 0;
+ }
+
+
+ @media only screen and (max-width: 600px) {
+   
+    header li{
+     font-size: 1.6rem;
+     margin: 0 0 15px 0 ;       
+ }
+     section p, li, section li, #section3{
+        font-size: 1.2rem;
+     }
+     #button{
+        height: 2rem
+     }
+ input{
+    height: 2rem;
+ }
+    
+ }
+ 
+ 
+ @media only screen and (min-width: 601px) and (max-width: 992px) {
+    header li{
+        font-size: 2rem;
+        margin: 0 0 15px 0 ;       
+    }
+    
+        section p, li, section li, #section3{
+           font-size: 1.2rem;
+        }
+
+        input{
+            height: 2rem;
+         }
+
+       
+     
+  }
+
